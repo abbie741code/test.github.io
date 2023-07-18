@@ -1,0 +1,73 @@
+.logo{
+max-width: 350px;
+}
+
+.border-secondary{
+	border-color:#cccccc !important;
+}
+
+.color-blue{
+color: #0875E1;
+}
+
+.ab-max-width{
+ max-width: 1440px;
+
+}
+
+/* 
+@media (max-width: 1440px) {
+  .ab-max-width {
+    max-width: 1440px;
+  }
+}
+ */
+
+.ab-success-width{
+	font-size: 4rem;
+}
+
+
+.ab-btn-light {
+  border: 1px solid #cccccc; /* 灰色border */ 
+  
+  transition: background-color 0.3s, border 0.3s; /* 添加過渡效果 */
+}
+
+/* 按鈕的hover狀態樣式 */
+/* .ab-btn:hover {
+  background-color:#40B4E5; 
+  border: none; 
+} */
+
+
+.ab-btn-main {
+  color: #ffffff;
+  background-color:#0875E1;
+  transition: background-color 0.3s, border 0.3s; /* 添加過渡效果 */
+}
+
+/* 按鈕的hover狀態樣式 */
+.ab-btn-main:hover {
+  color: #ffffff;
+  background-color:#005CB9; 
+
+}
+
+.ab-max-height {
+  max-height: 300px;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .w-sm-100{
+    width: 100% !important;
+  }
+  
+}
+
+.ab-indent-20{
+  margin-left: 20px;
+}

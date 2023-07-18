@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workday Discover 2023，探索台灣工作未來式</title>
+
+    <!-- 網址縮圖 -->
+    <meta property="og：url" content="#" />
+    <meta property="og：type" content="website" />
+    <meta property="og：title" content="#" />
+    <meta property="og：description" content="#" />
+    <meta property="og：image" content="images/share.jpg" />
+    <meta name="description" content="#" />
+
+    <!-- 引用bs的css (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!-- 引用font awesome 6.2.1  -->
+    <!-- <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css" /> -->
+
+    <!-- 引用favicon (local自行放） -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- 自行設定css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- 引用bs icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <style>
+      /* * {
+        outline: 1px solid rgb(255, 173, 213);
+      } */
+    </style>
+  </head>
+
+  <body>
+    <!-- 滿版 -->
+    <div class="container-fluid p-0 m-0">
+      <!-- logo -->
+      <div class="logo m-auto py-3">
+        <img src="images/workday-logo.png" alt="圖片描述" class="" />
+      </div>
+
+      <!-- Desktop banner -->
+      <img src="images/survey-banner-desktop.jpg" class="d-none d-md-block w-100" />
+
+      <!-- Mobile banner -->
+      <img src="images/survey-banner-mobile.jpg" class="d-md-none" />
+    </div>
+
+    <!-- 非滿版 -->
+    <div class="container ab-max-width mx-auto">
+      <form action="" id="myForm">
+        <div class="d-flex justify-content-center">
+          <div class="mt-4">
+            <!-- 前言 -->
+            <div class=""
+            >
+              <p>Workday 非常重視您的意見，您的回饋將是我們進步的最大動力。</p>
+              <p>
+                您所提供的任何個人資料將按照 Workday<a
+                  href="https://www.workday.com/en-us/privacy.html "
+                  target="_blank"
+                  class="color-blue text-decoration-underline"
+                >
+                  隱私權聲明
+                </a>
+                進行處理。
+              </p>
+            </div>
+
+            <!-- Q1 -->
+            <div>
+              <!-- Q-->
+              <div class="mt-4">
+                1. 您對 Workday Discover 活動的整體滿意度為何？ *
+              </div>
+
+              <!-- A -->
+              <div class="ab-indent-20">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question1"
+                    id="question1-option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="question-option1">
+                    5 – 非常滿意
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question1"
+                    id="question1-option2"
+                  />
+                  <label class="form-check-label" for="question1-option2">
+                    4 – 滿意
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question1"
+                    id="question1-option3"
+                  />
+                  <label class="form-check-label" for="question1-option3">
+                    3 – 普通
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question1"
+                    id="question1-option4"
+                  />
+                  <label class="form-check-label" for="question1-option4">
+                    2 – 不滿意
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question1"
+                    id="question1-option5"
+                  />
+                  <label class="form-check-label" for="question1-option5">
+                    1 – 非常不滿意
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Q2 -->
+            <div>
+              <!-- Q-->
+              <div class="mt-4">
+                2.  您認為這次活動與您的工作角色有多大關聯性？ *
+              </div>
+
+              <!-- A -->
+              <div class="ab-indent-20">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question2"
+                    id="question2-option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="question2-option1">
+                    5 – 非常滿意
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question2"
+                    id="question2-option2"
+                  />
+                  <label class="form-check-label" for="question2-option2">
+                    4 – 滿意
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question2"
+                    id="question2-option3"
+                  />
+                  <label class="form-check-label" for="question2-option3">
+                    3 – 普通
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question2"
+                    id="question2-option4"
+                  />
+                  <label class="form-check-label" for="qquestion2-option4">
+                    2 – 不滿意
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question2"
+                    id="question2-option5"
+                  />
+                  <label class="form-check-label" for="question2-option5">
+                    1 – 非常不滿意
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div>
+              <!-- Q-->
+              <div class="mt-4">
+                3. 您為什麼參加 Workday Discover？ *（可複選。）
+              </div>
+
+              <!-- A -->
+              <div class="ab-indent-20">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question3"
+                    id="question3-option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="question3-option1">
+                    可以與同行交流
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question3"
+                    id="question3-option2"
+                  />
+                  <label class="form-check-label" for="question3-option2">
+                    可以更詳細了解已經使用的 Workday   產品
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question3"
+                    id="question3-option3"
+                  />
+                  <label class="form-check-label" for="question3-option3">
+                    可以聽取其他客戶的意見
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question3"
+                    id="question3-option4"
+                  />
+                  <label class="form-check-label" for="question3-option4">
+                    可以更了解目前沒有使用的產品
+                  </label>
+                </div>
+
+        
+
+              </div>
+            </div>
+
+            <!-- Q4 -->
+            <div>
+              <!-- Q-->
+              <div class="mt-4">
+                4. 您願意向朋友或同事推薦這個活動的程度為何? *
+              </div>
+
+              <!-- A -->
+              <div class="ab-indent-20">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="question4-option1">
+                    10 - 極有可能
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option2"
+                  />
+                  <label class="form-check-label" for="question4-option2">
+                  9
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option3"
+                  />
+                  <label class="form-check-label" for="question4-option3">
+                    8
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option4"
+                  />
+                  <label class="form-check-label" for="question4-option4">
+                    7
+                  </label>
+                </div>
+
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option5"
+                  />
+                  <label class="form-check-label" for="question4-option5">
+                    6
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option6"
+                  />
+                  <label class="form-check-label" for="question4-option6">
+                    5 - 有可能
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option7"
+                  />
+                  <label class="form-check-label" for="question4-option7">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option8"
+                  />
+                  <label class="form-check-label" for="question4-option8">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option9"
+                  />
+                  <label class="form-check-label" for="question4-option9">
+                    2
+                  </label>
+                </div>
+
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question4"
+                    id="question4-option10"
+                  />
+                  <label class="form-check-label" for="question4-option10">
+                    1 - 不可能
+                  </label>
+                </div>
+
+
+        
+
+              </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="mt-4">
+              <label for="question5" class="form-label"> 5. 您願意向朋友或同事推薦這個活動的程度為何? *</label>
+              <textarea class="form-control" id="question5" rows="4"></textarea>
+            </div>
+
+      
+
+            <!-- Q6 -->
+            <div class="mt-4">
+              <label for="question6" class="form-label">6. 哪一個議程是您覺得最不受用的？</label>
+              <textarea class="form-control" id="question6" rows="4"></textarea>
+            </div>
+
+            <!-- Q7 -->
+            <div class="mt-4">
+              <label for="question7" class="form-label">7. 您對整體議程有什麼意見回饋嗎？</label>
+              <textarea class="form-control" id="question7" rows="4"></textarea>
+            </div>
+
+            <!-- Q8 -->
+            <div>
+              <!-- Q-->
+              <div class="mt-4">
+                8. 您希望 Workday 安排一位代表與您聯繫，讓您能詢問後續和 Workday 相關的問題嗎？
+              </div>
+
+              <!-- A -->
+              <div class="ab-indent-20">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question8"
+                    id="question8-option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="question8-option1">
+                    是的
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="question8"
+                    id="question8-option2"
+                  />
+                  <label class="form-check-label" for="question8-option2">
+                    不需要
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <!--  Q9 -->
+            <div class="mt-4">
+              <label for="question7" class="form-label">  9. 如果需要 Workday 分享有關某個主題或有興趣瞭解更多特定信息，請告訴我們。</label>
+              <textarea class="form-control" id="question9" rows="4"></textarea>
+              
+            </div>
+
+            <!-- btn -->
+            <div class="text-center m-5">
+              <button type="button" class="btn px-4 ab-btn-main">
+                送出資料
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- 引用bs的js (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+
+  </body>
+</html>

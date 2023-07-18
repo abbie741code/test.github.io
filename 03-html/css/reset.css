@@ -1,0 +1,97 @@
+/* Reset.css */
+
+/* 引用google font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Arial', 'Noto Sans TC','Microsoft JhengHei' ,sans-serif;
+
+  /* overflow: hidden; */
+}
+
+/* 全局重置 */
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+ol,
+li,
+form,
+input,
+button,
+textarea,
+table,
+tr,
+td,
+th,
+blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font-family: inherit; */
+  vertical-align: baseline;
+}
+
+/* a元素樣式重置 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 列表樣式重置 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 圖像樣式重置 */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 表格樣式重置 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 表單元素樣式重置 */
+input,
+button,
+textarea {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* 其他元素樣式重置 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.fs-7{
+	font-size: 0.8rem;
+}
+.fs-8{
+	font-size: 0.6rem;
+}
